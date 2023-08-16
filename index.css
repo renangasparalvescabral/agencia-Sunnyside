@@ -1,6 +1,106 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    margin-left: 25%;
+    height: 100vh;
+}
+
+/*...........LINHA 1.................*/
+
+.img-1{
+    width: 50vw;
+}
+
+/*............LINHA 2.................*/
+.linha-2{
+    display: flex;
+}
+
+.esquerdo-linha2{
+    width: 25vw;
+}
+
+.img-ovo{
+    width: 25vw;
+}
+
+/*............LINHA 3.................*/
+
+.linha-3{
+    display: flex;
+}
+
+.direito-linha3{
+    width: 25vw;
+}
+
+.img-copo-rosa{
+    width: 25vw;
+}
+
+/*............LINHA 4..............*/
+.linha-4{
+    display: flex;
+}
+
+.img-acerola{
+    width: 25vw;
+}
+
+.img-laranja{
+    width: 25vw;
+}
+
+/*...........PERSONAGENS............*/
+
+.container-personagens{
+    background-color: aqua;
+    width: 50vw;
+}
+
+.Client-testimonials{
+    display: flex;
+    justify-content: center;
+}
+
+.personagens{
+   display: flex;
+   justify-content: center; 
+}
+
+/*...........PRODUTOS...............*/
+.produtos{
+    display: grid;
+    width: 50vw;
+    background-color: bisque;
+}
+.img-leite{
+    width: 12vw;
+}
+
+.img-mixirica{
+    width: 12vw;
+}
+
+.img-casquinha{
+    width: 12vw;
+}
+
+.img-cubos{
+    width: 12vw;
+}
+
+/*............FOOTER.............*/
+
 .attribution {
      font-size: 11px;
-      text-align: center;
+     
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
