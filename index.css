@@ -12,14 +12,38 @@ body{
 }
 
 /*...........LINHA 1.................*/
+header{
+    width: 50vw;
+    margin: 0px;
+}
 
-.img-1{
+
+.main-cabecalho{
+    display: flex;
     width: 50vw;
 }
 
+.div-img1{
+    margin-bottom: -4px;
+}
+
+.img-1{
+    width: 50vw;
+    margin-top: -60px;
+    position: relative;
+    z-index: -1;
+}
+
 /*............LINHA 2.................*/
+
+article{
+    width: 50vw;
+}
+
 .linha-2{
     display: flex;
+    width: 50vw;
+    margin-bottom: -4px;
 }
 
 .esquerdo-linha2{
@@ -34,6 +58,8 @@ body{
 
 .linha-3{
     display: flex;
+    width: 50vw;
+    margin-bottom: -4px;
 }
 
 .direito-linha3{
@@ -47,10 +73,32 @@ body{
 /*............LINHA 4..............*/
 .linha-4{
     display: flex;
+    width: 50vw;
+
+}
+
+.artigo-esquerdo-linha4{
+    width: 25vw;
+    position: relative;
+    margin-top: -130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-acerola{
     width: 25vw;
+    z-index: -1;
+}
+
+.artigo-direito-linha4{
+    width: 25vw;
+    position: relative;
+    margin-top: -130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .img-laranja{
@@ -60,8 +108,12 @@ body{
 /*...........PERSONAGENS............*/
 
 .container-personagens{
-    background-color: aqua;
     width: 50vw;
+    height: 50vh;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Client-testimonials{
@@ -70,16 +122,24 @@ body{
 }
 
 .personagens{
-   display: flex;
-   justify-content: center; 
+    display: flex;
 }
 
 /*...........PRODUTOS...............*/
 .produtos{
-    display: grid;
     width: 50vw;
-    background-color: bisque;
 }
+
+.container-produtos{
+    background-color: aqua;
+    
+    
+}
+
+.container-produtos img{
+
+}
+
 .img-leite{
     width: 12vw;
 }
