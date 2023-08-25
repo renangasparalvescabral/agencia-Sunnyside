@@ -236,9 +236,8 @@ article{
     height: 50vh;
     margin-top: 45px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-
 }
 
 .titulo-Client-testimonials{
@@ -250,6 +249,93 @@ article{
 
 .personagens{
     display: flex;
+    justify-content:space-evenly;
+    padding: 40px 0;
+}
+
+
+.img-loira{
+    width: 3vw;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+.text-loira{
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);
+    line-height: 18px;
+}
+
+.h3-loira{
+    margin-left: 70px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.h4-loira{
+    margin-left: 60px;
+    font-size: 10px; 
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);  
+}
+
+.img-negro{
+    width: 3vw;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+
+.text-negro{
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);
+    line-height: 18px;
+}
+
+.h3-negro{
+    margin-left: 70px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.h4-negro{
+    margin-left: 55px;
+    font-size: 10px;  
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);  
+}
+
+.img-morena{
+    width: 3vw;
+    border-radius: 50px;
+    margin-left: 80px;    
+}
+
+.text-morena{
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0; 
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);
+    line-height: 18px;   
+}
+
+.h3-morena{
+    margin-left: 80px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+.h4-morena{
+    margin-left: 75px;
+    font-size: 10px;  
+    font-family: 'Barlow', serif;
+    color: hsl(167, 40%, 24%);  
 }
 
 /*...........PRODUTOS...............*/
