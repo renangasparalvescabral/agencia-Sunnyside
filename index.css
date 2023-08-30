@@ -344,36 +344,56 @@ article{
 }
 
 .container-produtos{
-    background-color: aqua;
-    
-    
+   display: flex;
 }
 
-.container-produtos img{
-
-}
-
-.img-leite{
-    width: 12vw;
-}
-
-.img-mixirica{
-    width: 12vw;
-}
-
-.img-casquinha{
-    width: 12vw;
-}
-
-.img-cubos{
-    width: 12vw;
+.container-produtos .thumbnail{
+    width: 25%;
+    display: block;
 }
 
 /*............FOOTER.............*/
+.rodape{
+    width: 50vw;
+    height: 10vw;
+    background-color: hsl(168, 34%, 41%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-sunnyside{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 900;
+    color: hsl(166, 42%, 21%);
+}
+
+.links-footer{
+    padding: 20px 0px 40px 0;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+    font-size: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.imgs-footer{
+    color: black;
+}
+
+.img-footer{
+    padding: 0 5px 0 5px;
+    width: 25px;
+}
+
 
 .attribution {
      font-size: 11px;
-     
+
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
